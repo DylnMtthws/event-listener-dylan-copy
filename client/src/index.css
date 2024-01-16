@@ -1,0 +1,244 @@
+
+@font-face {
+  font-family: 'Chillax-Variable';
+  src: url('./fonts/Chillax-Variable.woff2') format('woff2'),
+       url('./fonts/Chillax-Variable.woff') format('woff'),
+       url('./fonts/Chillax-Variable.ttf') format('truetype');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Extralight';
+  src: url('./fonts/Chillax-Extralight.woff2') format('woff2'),
+       url('./fonts/Chillax-Extralight.woff') format('woff'),
+       url('./fonts/Chillax-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Light';
+  src: url('./fonts/Chillax-Light.woff2') format('woff2'),
+       url('./fonts/Chillax-Light.woff') format('woff'),
+       url('./fonts/Chillax-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Regular';
+  src: url('./fonts/Chillax-Regular.woff2') format('woff2'),
+       url('./fonts/Chillax-Regular.woff') format('woff'),
+       url('./fonts/Chillax-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Medium';
+  src: url('./fonts/Chillax-Medium.woff2') format('woff2'),
+       url('./fonts/Chillax-Medium.woff') format('woff'),
+       url('./fonts/Chillax-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Semibold';
+  src: url('./fonts/Chillax-Semibold.woff2') format('woff2'),
+       url('./fonts/Chillax-Semibold.woff') format('woff'),
+       url('./fonts/Chillax-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Bold';
+  src: url('./fonts/Chillax-Bold.woff2') format('woff2'),
+       url('./fonts/Chillax-Bold.woff') format('woff'),
+       url('./fonts/Chillax-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Chillax-Light';
+  src: url('./fonts/Chillax-Light.woff2') format('woff2'),
+       url('./fonts/Chillax-Light.woff') format('woff'),
+       url('./fonts/Chillax-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+  background-image: url('bgimage.jpg');
+  background-size: cover;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.app-title {
+  text-align: center;
+  margin-top: .25em;
+  font-family: 'Chillax-Bold';
+  src: url('./fonts/Chillax-Bold.woff2') format('woff2'),
+       url('./fonts/Chillax-Bold.woff') format('woff'),
+       url('./fonts/Chillax-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+.icon {
+  margin: 1rem;
+  color: black;
+}
+.home {
+  margin-top: 5em;
+}
+.homeP {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+ }
+ 
+ .image-container {
+  position: relative;
+  width: 75%;
+  height: 75%;
+  left: 20%;
+  overflow: auto;
+ }
+ 
+ .overlay-image1 {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+ }
+
+ .overlay-image2 {
+  top: 0;
+  right: 10;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+ }
+
+ .overlay-image3 {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+ }
+
+ .overlay-image4 {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+ }
+
+ 
+
+.page-header {
+  text-align: center;
+  margin: 1em;
+}
+.card-container {
+  height: 27em;
+  width: 30em;
+}
+
+.card {
+  height: 25em;
+  width: 28em;
+  overflow: auto;
+ }
+
+ .card-title {
+  text-align: center;
+  font-family: 'Chillax-Medium';
+  src: url('./fonts/Chillax-Medium.woff2') format('woff2'),
+       url('./fonts/Chillax-Medium.woff') format('woff'),
+       url('./fonts/Chillax-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+ }
+
+ .card-text {
+  height: 6em;
+  overflow: auto;
+  font-family: 'Chillax-Extralight';
+  src: url('./fonts/Chillax-Extralight.woff2') format('woff2'),
+       url('./fonts/Chillax-Extralight.woff') format('woff'),
+       url('./fonts/Chillax-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+ }
+
+ .card-buttons-container {
+  width: 20em;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  justify-content: center;
+ }
+
+ .btn {
+  margin: .25em;
+ }
+
+ .card-header {
+  margin-top: 5%;
+ }
+
+
+
+ 
